@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.image
+{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    left: 20%;
+    top: 10px;
+    border-radius: 50%;
+    transition: border-radius 1s ease-in;
+   
+}
+.image:hover{
+    height: 100vh;
+    width: 100vh;
+    z-index: 10;
+    position: absolute;
+    left: 10%;
+    border-radius: 0%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+}
+
+strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}
+header h1{
+    transition: color 1s ease-in;
+}
+header h1:hover{
+    color: orange;
+
+}
+fieldset
+{
+  animation: a 2s infinite;
+}
+@keyframes a{
+50% {background-color:white;}
+}
+section
+{
+    border: 20px black;
+}
+#certificates
+{
+    position: absolute;
+    top: 180px;
+    left: 50vw;
+   
+   
+}
+#certificates img
+{
+    border-radius: 30%;
+    height: 400px;
+    width: 600px;
+    transition: border-radius 1s ease-in;
+}
+#certificates img:hover
+{
+    border-radius: 0%;
+}
+h2{
+    background-color: grey;
+    width: 45vw;
+    height: 40px;
+    transition: translate 0.5s ease-in;
+}
+h2:hover{
+    translate: 0px -10px 0px;
+}
+p{
+    transition: font-size 0.5s ease-in;
+}
+p:hover{
+font-size: 20px;
+}
+
+li{
+    transition: font-size 0.5s ease-in;
+}
+li:hover{
+font-size: 20px;
+}
+#project
+{
+    position: absolute;
+    left: 15px;
+}
+section{
+    
+    width: 50vw;
+}
